@@ -1,0 +1,26 @@
+/* body {
+    background-image: url(https://wallpaperaccess.com/full/1567666.png);
+} */
+
+.row {
+    margin: 16px;
+}
+
+nav div {
+    float: right;
+}
+
+.nav {
+    float: right;
+}
+
+footer {
+    background-color: #6ea1cc;
+}
+
+footer p {
+    float: right;
+    font-size: 12px;
+    
+}
+

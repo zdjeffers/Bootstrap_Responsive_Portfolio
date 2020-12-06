@@ -9,7 +9,7 @@
   <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./Assets/css/navbar_style.css">
+    <link rel="stylesheet" href="./Assets/css/consistent_elements.css">
 
 </head>
 
@@ -33,25 +33,41 @@
                     <a class="nav-link" href="./about.html">About</a>
                 </li>
             </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
         </div>
       </nav>
-  
-  
-    <!-- Creates the Overall Grid -->
+
+    <div class="container">
+      <form>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Email">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+            <!--<input type="text" class="form-control" placeholder="Message" rows="4">-->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>    
+  <!-- Creates the Overall Grid 
   <div class="container">
 
-    <!-- Row 1 -->
     <div class="row">
         <div class="col-md-12">
           <h1>Header</h1>
         </div>
     </div>
 
-    <!-- Row 2 -->
     <div class="row">
       <div class="col-md-3">
         <p>
@@ -70,7 +86,6 @@
       </div>
     </div>
 
-    <!-- Row 3 -->
     <div class="row">
       <div class="col-md-2">
         <p>
@@ -104,7 +119,6 @@
       </div>
     </div>
 
-    <!-- Row 4 -->
     <div class="row">
       <div class="col-md-6">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et tortor at risus viverra adipiscing at in tellus. Eu feugiat pretium nibh ipsum consequat nisl vel.
@@ -115,10 +129,10 @@
         </p>
       </div>
     </div>
-  </div>
+  </div>-->
 
   <!--Footer Section-->
-<footer>
+<footer class="text-center fixed-bottom">
     <p>
         2020-2021 | Dave Jeffers
     </p>
