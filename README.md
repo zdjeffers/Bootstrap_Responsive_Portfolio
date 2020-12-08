@@ -8,7 +8,7 @@ This is my initial attempt at creating a robust portfolio utilizing html and CSS
 ![ZDJeffers Portfolio](https://github.com/zdjeffers/Bootstrap_Responsive_Portfolio/blob/main/Assets/Images/Screenshot%202020-12-07%20223713.png)
 
 ### Here is the link to the deployed site:
-[ZDJeffers Portfoilio](https://zdjeffers.github.io/bootstrap_responsive_portfolio/about.html)
+[ZDJeffers Portfolio](https://zdjeffers.github.io/Bootstrap_Responsive_Portfolio/about.html)
 
 ### Final Thoughts:
 Thank you for taking the time to look at my work. If you'd like to see any of my other projects, please feel free to drop by [my GitHub Page!](https://github.com/zdjeffers)
