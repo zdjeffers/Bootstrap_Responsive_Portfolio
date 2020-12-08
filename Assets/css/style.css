@@ -1,0 +1,44 @@
+/* All Page Formatting */
+body {
+    background-image: url(https://wallpaperaccess.com/full/1567666.png);
+}
+
+img {
+    margin: 20px;
+}
+
+h1 {
+    color: #6ea1cc;
+}
+
+/*Navbar formatting*/
+
+.row {
+    margin: 16px;
+}
+
+/*footer Section - color for hyperlink icon, spacing, floats*/
+footer {
+    background-color: #6ea1cc;
+}
+
+footer p {
+    float: right;
+    font-size: 12px;
+}
+
+p {
+    margin: 16px;
+}
+
+i {
+    margin: 10px;
+
+    padding-top: 5px;
+}
+
+a {
+    color: #151019;
+    margin: 10px;
+    padding-left: 10px;
+}

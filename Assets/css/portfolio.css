@@ -1,0 +1,16 @@
+/*Container Formatting and Picture Formatting*/
+
+.container {
+    background-color: transparent;
+    padding: 20px;
+}
+
+img {
+    padding: 50px;
+    margin: 16px;
+}
+
+h2 {
+    padding: 10px;
+    text-align: center;
+}

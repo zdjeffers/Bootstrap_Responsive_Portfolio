@@ -1,0 +1,9 @@
+/*Container Formatting for image and header */
+img {
+    float: left;
+    padding: 20px;
+}
+
+h3 {
+    padding: 0 0 0 16px;
+}
