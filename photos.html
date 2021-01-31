@@ -4,18 +4,19 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>ZDJ Portfolio | Contact</title>
+  <title>ZDJ Portfolio | Photos</title>
 
   <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./Assets/css/style.css">
-
+  <link rel="stylesheet" href="./Assets/css/portfolio.css">
 
 </head>
 
 <body>
-  <!-- NavBar Section (consistent throughout all HTML elements)-->
+
+  <!-- NavBar Section (consistent throughout all HTML sections)-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Dave Jeffers</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
@@ -41,36 +42,42 @@
     </div>
   </nav>
 
+  <!-- Image Container Section -->
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1>Contact Me</h1>
+        <h1>Photos</h1>
       </div>
     </div>
-    <form>
-      <div class="row">
-        <div class="col">
-          <input type="text" class="form-control" placeholder="Name">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card imgBox">
+          <img class="card-img-top" src="./Assets/Images/Ecuador portrait.JPG" alt="Equador Portrait" />
+          <h2 class="card-title">Cotopaxi - Equador</h2>
         </div>
-        <div class="col">
-          <input type="text" class="form-control" placeholder="Email">
+        <div class="card imgBox">
+          <img class="card-img-top" src="./Assets/Images/marathon_portrait.JPG" alt="Marathon Portrait" />
+          <h2 class="card-title">Detroit Free Press Marathon</h2>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
-          <!--<input type="text" class="form-control" placeholder="Message" rows="4">-->
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <button type="submit" class="btn btn-primary mb-2">Submit</button>
+        <div class="card imgBox">
+          <img class="card-img-top" src="./Assets/Images/seattle_portrait.JPG" alt="Seattle_Portrait" />
+          <h2 class="card-title">Kayaking the Puget Sound - Seattle</h2>
         </div>
       </div>
-    </form>
+      <div class="col-md-6">
+        <div class="card imgBox">
+          <img class="card-img-top" src="./Assets/Images/uganda_portrait.JPG" alt="Uganda Portait" />
+          <h2 class="card-title">The Entebbe Zoo - Uganda</h2>
+        </div>
+        <div class="card imgBox">
+          <img class="card-img-top" src="./Assets/Images/wedding_portrait.PNG" alt="Wedding Portrait" />
+          <h2 class="card-title">Roommate's Wedding - Lansing</h2>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <!--Footer Section-->
+  <!--Footer Section (Consistent throughout all HTML pages-->
   <footer class="text-center fixed-bottom">
     <p>
       2020-2021 | Dave Jeffers
@@ -90,5 +97,5 @@
   integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
+  
 </html>
