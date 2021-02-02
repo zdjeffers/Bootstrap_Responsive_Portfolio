@@ -7,6 +7,8 @@
     <title>ZDJ Portfolio | Portfolio</title>
 
     <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./Assets/css/style.css">
@@ -38,6 +40,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="./about.html">About</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./resume.html">Resume</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -58,22 +63,31 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./Assets/Images/BITrateImage.png" class="d-block w-100" alt="BITRate - Crypto Currency Converter">
-                    <div class="carousel-caption d-none d-md-block">
+                    <a href="https://devontehillman.github.io/Bitcoin-Curreny-Converter/">
+                        <img src="./Assets/Images/BITrateImage.png" class="d-block w-100"
+                            alt="BITRate - Crypto Currency Converter">
+                    </a>
+                    <div class="carousel-caption d-none d-md-block" id="carousel-text">
                         <h5>BITRate - Crypto Currency Converter</h5>
                         <p>Use of 3rd party API's and Bulma Framework to create a sleek Currency Converter</p>
+                        <p>Note: The API does not take https, and github does output anything but https. Functionality may be limited. </p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./Assets/Images/daily-scheduler.png" class="d-block w-100" alt="Daily Scheduler">
-                    <div class="carousel-caption d-none d-md-block">
+                    <a href="https://zdjeffers.github.io/Daily-Planner/Develop/index.html">
+                        <img src="./Assets/Images/daily-scheduler.png" class="d-block w-100" alt="Daily Scheduler">
+                    </a>
+                    <div class="carousel-caption d-none d-md-block" id="carousel-text">
                         <h5>Daily Scheduler</h5>
                         <p>Dynamically update a hour-by-hour schedule to keep your busy life on track!</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./Assets/Images/3rd-party-API-Weather-Dashboard.png" class="d-block w-100" alt="5 Day Forecast">
-                    <div class="carousel-caption d-none d-md-block">
+                    <a href="https://zdjeffers.github.io/Weather_API/Develop/index.html">
+                        <img src="./Assets/Images/3rd-party-API-Weather-Dashboard.png" class="d-block w-100"
+                            alt="5 Day Forecast">
+                    </a>
+                    <div class="carousel-caption d-none d-md-block" id="carousel-text">
                         <h5>Location 5 Day Forecaster</h5>
                         <p>Type in a city and recieve the current weather as well as a 5 day forecast</p>
                     </div>
@@ -137,8 +151,8 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
     crossorigin="anonymous"></script>
 
 </html>
